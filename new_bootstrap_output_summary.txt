@@ -1,0 +1,295 @@
+Output from bootstrap tests - with only important information
+
+RUN 1 *********************************************************************************
+
+===========================================
+Data Set:Employee Salaries - 2015 dataset from Montgomery County of Maryland
+===========================================
+===========================================
+Visualizations
+===========================================
+Made gender_bar.pdf
+Made dept_bar.pdf
+Made gender_multFreq.pdf
+Made dept_multFreq.pdf
+Made gender_dept_multFreq.pdf
+
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.740518962076, error rate: 0.259481037924
+
+      Naive Bayes: accuracy: 0.780439121756, error rate: 0.219560878244
+
+      Descision Tree: accuracy: 0.74251497006, error rate: 0.25748502994
+
+Random Forest (Gender) : accuracy: 0.746506986028, error rate: 0.253493013972
+
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.601904761905, error rate: 0.398095238095
+
+      Naive Bayes: accuracy: 0.735238095238, error rate: 0.264761904762
+      
+      Descision Tree: accuracy: 0.748571428571, error rate: 0.251428571429
+      
+Random Forest (Department) : accuracy: 0.748571428571, error rate: 0.251428571429
+
+RUN 2 **********************************************************************************
+
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.740518962076, error rate: 0.259481037924
+
+      Naive Bayes: accuracy: 0.802395209581, error rate: 0.197604790419
+
+      Descision Tree: accuracy: 0.768463073852, error rate: 0.231536926148
+
+Random Forest (Gender) : accuracy: 0.784431137725, error rate: 0.215568862275
+
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+       k Nearest Neighbors: accuracy: 0.681904761905, error rate: 0.318095238095
+       
+       Naive Bayes: accuracy: 0.771428571429, error rate: 0.228571428571
+       
+       Descision Tree: accuracy: 0.784761904762, error rate: 0.215238095238
+       
+ Random Forest (Department) : accuracy: 0.752380952381, error rate: 0.247619047619
+ 
+RUN 3 **********************************************************************************
+ 
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.75249500998, error rate: 0.24750499002
+
+      Naive Bayes: accuracy: 0.800399201597, error rate: 0.199600798403
+
+      Descision Tree: accuracy: 0.774451097804, error rate: 0.225548902196
+
+Random Forest (Gender) : accuracy: 0.768463073852, error rate: 0.231536926148
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+       k Nearest Neighbors: accuracy: 0.647619047619, error rate: 0.352380952381
+       
+       Naive Bayes: accuracy: 0.784761904762, error rate: 0.215238095238
+       
+       Descision Tree: accuracy: 0.790476190476, error rate: 0.209523809524
+       
+Random Forest (Department) : accuracy: 0.777142857143, error rate: 0.222857142857
+ 
+RUN 4 **********************************************************************************
+  
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.744510978044, error rate: 0.255489021956
+
+      Naive Bayes: accuracy: 0.818363273453, error rate: 0.181636726547
+
+      Descision Tree: accuracy: 0.786427145709, error rate: 0.213572854291
+
+Random Forest (Gender) : accuracy: 0.7624750499, error rate: 0.2375249501
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.628571428571, error rate: 0.371428571429
+      
+      Naive Bayes: accuracy: 0.773333333333, error rate: 0.226666666667
+      
+      Descision Tree: accuracy: 0.790476190476, error rate: 0.209523809524
+      
+Random Forest (Department) : accuracy: 0.779047619048, error rate: 0.220952380952
+  
+RUN 5 **********************************************************************************
+   
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.704590818363, error rate: 0.295409181637
+
+      Naive Bayes: accuracy: 0.760479041916, error rate: 0.239520958084
+
+      Descision Tree: accuracy: 0.760479041916, error rate: 0.239520958084
+
+Random Forest (Gender) : accuracy: 0.766467065868, error rate: 0.233532934132
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.628571428571, error rate: 0.371428571429
+      
+      Naive Bayes: accuracy: 0.758095238095, error rate: 0.241904761905
+      
+      Descision Tree: accuracy: 0.775238095238, error rate: 0.224761904762
+      
+Random Forest (Department) : accuracy: 0.740952380952, error rate: 0.259047619048
+   
+RUN 6 **********************************************************************************
+    
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.738522954092, error rate: 0.261477045908
+
+      Naive Bayes: accuracy: 0.822355289421, error rate: 0.177644710579
+
+      Descision Tree: accuracy: 0.808383233533, error rate: 0.191616766467
+
+Random Forest (Gender) : accuracy: 0.814371257485, error rate: 0.185628742515
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.647619047619, error rate: 0.352380952381
+      
+      Naive Bayes: accuracy: 0.767619047619, error rate: 0.232380952381
+      
+      Descision Tree: accuracy: 0.788571428571, error rate: 0.211428571429
+      
+Random Forest (Department) : accuracy: 0.771428571429, error rate: 0.228571428571
+    
+RUN 7 **********************************************************************************
+
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.744510978044, error rate: 0.255489021956
+
+      Naive Bayes: accuracy: 0.794411177645, error rate: 0.205588822355
+
+      Descision Tree: accuracy: 0.768463073852, error rate: 0.231536926148
+
+Random Forest (Gender) : accuracy: 0.764471057884, error rate: 0.235528942116
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.613333333333, error rate: 0.386666666667
+      
+      Naive Bayes: accuracy: 0.746666666667, error rate: 0.253333333333
+      
+      Descision Tree: accuracy: 0.748571428571, error rate: 0.251428571429
+      
+Random Forest (Department) : accuracy: 0.72, error rate: 0.28
+
+RUN 8 **********************************************************************************
+   
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.756487025948, error rate: 0.243512974052
+
+      Naive Bayes: accuracy: 0.792415169661, error rate: 0.207584830339
+
+      Descision Tree: accuracy: 0.754491017964, error rate: 0.245508982036
+
+Random Forest (Gender) : accuracy: 0.748502994012, error rate: 0.251497005988
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.622857142857, error rate: 0.377142857143
+      
+      Naive Bayes: accuracy: 0.76, error rate: 0.24
+      
+      Descision Tree: accuracy: 0.767619047619, error rate: 0.232380952381
+      
+Random Forest (Department) : accuracy: 0.75619047619, error rate: 0.24380952381
+   
+RUN 9 **********************************************************************************
+    
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.736526946108, error rate: 0.263473053892
+
+      Naive Bayes: accuracy: 0.796407185629, error rate: 0.203592814371
+
+      Descision Tree: accuracy: 0.780439121756, error rate: 0.219560878244
+
+Random Forest (Gender) : accuracy: 0.798403193613, error rate: 0.201596806387
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.632380952381, error rate: 0.367619047619
+      
+      Naive Bayes: accuracy: 0.777142857143, error rate: 0.222857142857
+      
+      Descision Tree: accuracy: 0.788571428571, error rate: 0.211428571429
+      
+Random Forest (Department) : accuracy: 0.769523809524, error rate: 0.230476190476
+    
+RUN 10 **********************************************************************************
+
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.736526946108, error rate: 0.263473053892
+
+      Naive Bayes: accuracy: 0.802395209581, error rate: 0.197604790419
+
+      Descision Tree: accuracy: 0.766467065868, error rate: 0.233532934132
+
+Random Forest (Gender) : accuracy: 0.758483033932, error rate: 0.241516966068
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      k Nearest Neighbors: accuracy: 0.609523809524, error rate: 0.390476190476
+      
+      Naive Bayes: accuracy: 0.744761904762, error rate: 0.255238095238
+      
+      Descision Tree: accuracy: 0.779047619048, error rate: 0.220952380952
+      
+Random Forest (Department) : accuracy: 0.769523809524, error rate: 0.230476190476

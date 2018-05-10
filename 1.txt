@@ -1,0 +1,116 @@
+===========================================
+Data Set:Employee Salaries - 2015 dataset from Montgomery County of Maryland
+===========================================
+===========================================
+Visualizations
+===========================================
+Made gender_bar.pdf
+Made dept_bar.pdf
+Made gender_multFreq.pdf
+Made dept_multFreq.pdf
+Made gender_dept_multFreq.pdf
+
+===========================================
+Class Label 1: Predicting Gender
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      Naive Bayes: accuracy: 0.804283360791, error rate: 0.195716639209
+Naive Bayes (Bootstrap) :
+========  ====  ===  =======  =================
+Gender       M    F    Total    Recognition (%)
+========  ====  ===  =======  =================
+M         1558  241     1558            86.6037
+F          353  883      883            71.4401
+========  ====  ===  =======  =================
+
+
+===========================================
+Class Label 2: Predicting Department
+===========================================
+   Dataset with missing values replaced with meaningful averages
+   Bootstrap
+      Descision Tree: accuracy: 0.838076545633, error rate: 0.161923454367
+Descision Tree (Bootstrap) :
+============  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =======  =================
+Department      POL    HHS    COR    HCA    DGS    DOT    DTS    LIB    FIN    CCL    DLC    CEC    FRS    SHF    DPS    CEX    HRC    BOA    REC    DEP    OHR    OAG    OMB    CAT    CUS    OCP    PRO    PIO    DED    ZAH    DHS    OIG    OLO    IGR    BOE    NDA    ECM    MPB    Total    Recognition (%)
+============  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =======  =================
+POL             567     29      0      2      1      1      1      3      0      0      0      0      0      4      0      0      0      0      0      3      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      567            92.6471
+HHS              10    469      1      0      3      7      1      0      3      0      0      1      1      2      0      2      0      0      1      2      0      0      0      0      1      0      0      1      0      0      0      0      0      0      0      0      0      0      469            92.8713
+COR               1     13    147      0      0      1      0      0      2      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      147            89.0909
+HCA               0      7      0     13      0      5      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0       13            50
+DGS               6     12      0      1    100     10      1      0      1      0      0      0      1      0      0      0      0      0      0      2      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      100            74.6269
+DOT               4     24      0      0     11    353      2      0      2      0      0      0      1      0      0      0      0      0      0      2      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      353            88.25
+DTS               4      6      0      0      1      7     25      0      0      1      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0       25            54.3478
+LIB               3     15      0      0      0      2      0    106      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      2      0      0      0      0      0      0      0      0      0      0      0      0      0      106            82.1705
+FIN               3     19      0      0      1      3      1      0      7      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      1      0      0      0      2      0      0      0      0      0      0      0      0      0        7            18.4211
+CCL               1      7      0      0      1      0      0      0      0     22      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0       22            70.9677
+DLC               0      4      0      0      2      3      1      1      2      0    125      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      125            89.9281
+CEC               0      6      0      0      0      0      0      0      0      0      0     17      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0       17            73.913
+FRS               9     16      0      0      2      2      2      0      0      0      1      0    392      0      4      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      392            91.5888
+SHF               3      5      0      0      1      0      0      0      0      0      0      0      0     48      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0       48            84.2105
+DPS               1      7      1      0      0      3      0      0      0      0      0      0      2      0     50      1      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0       50            75.7576
+CEX               3      2      0      0      0      1      0      0      0      0      0      0      0      0      0      5      0      0      0      0      0      0      2      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        5            38.4615
+HRC               0      1      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0        0             0
+BOA               0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        0             0
+REC               2      7      0      0      0      1      1      0      0      0      0      0      0      0      0      0      0      0     31      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0       31            72.093
+DEP               1     17      0      0      6      5      1      1      2      0      0      0      1      0      1      0      0      0      0     17      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0       17            32.0755
+OHR               2      5      0      0      0      0      2      0      0      0      1      0      2      0      0      0      0      0      0      0     10      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0       10            45.4545
+OAG               0      1      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      2      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        2            50
+OMB               1      1      0      1      1      0      0      0      0      0      1      0      1      0      0      0      0      0      0      0      0      0      5      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        5            45.4545
+CAT               1      4      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0     19      0      0      0      0      0      0      0      0      0      0      0      0      0      0       19            76
+CUS               0      2      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      2      1      0      0      0      0      4      0      0      0      0      0      0      0      0      0      0      0      0      0        4            40
+OCP               0      1      0      2      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      2      0      0      0      0      0      0      0      0      0      0      0      0        2            33.3333
+PRO               0      2      0      0      1      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      7      0      0      0      0      0      0      0      0      0      0      0        7            63.6364
+PIO               1      5      0      0      1      0      0      0      0      2      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0     10      0      0      0      0      0      0      0      0      0      0       10            50
+DED               1      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      3      0      0      0      0      0      0      0      0      0        3            60
+ZAH               1      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        0             0
+DHS               0      2      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0        1            25
+OIG               0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0        1            50
+OLO               0      1      0      0      0      0      0      0      0      2      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        0             0
+IGR               0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      0      0      0      0        2           100
+BOE               0      4      0      0      0      1      1      0      0      0      1      0      1      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        0             0
+NDA               4      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0        1            20
+ECM               0      2      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0        0             0
+MPB               0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1        1           100
+============  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =======  =================
+
+Map from acronym to department
+POL = Department of Police
+HHS = Department of Health and Human Services
+COR = Correction and Rehabilitation
+HCA = Department of Housing and Community Affairs
+DGS = Department of General Services
+DOT = Department of Transportation
+DTS = Department of Technology Services
+LIB = Department of Public Libraries
+FIN = Department of Finance
+CCL = County Council
+DLC = Department of Liquor Control
+CEC = Community Engagement Cluster
+FRS = Fire and Rescue Services
+SHF = Sheriff's Office
+DPS = Department of Permitting Services
+CEX = Offices of the County Executive
+HRC = Office of Human Rights
+BOA = Board of Appeals Department
+REC = Department of Recreation
+DEP = Department of Environmental Protection
+OHR = Office of Human Resources
+OAG = Office of Agriculture
+OMB = Office of Management and Budget
+CAT = County Attorney's Office
+CUS = Community Use of Public Facilities
+OCP = Office of Consumer Protection
+PRO = Office of Procurement
+PIO = Office of Public Information
+DED = Department of Economic Development
+ZAH = Office of Zoning and Administrative Hearings
+DHS = Office of Emergency Management and Homeland Security
+OIG = Office of the Inspector General
+OLO = Office of Legislative Oversight
+IGR = Office of Intergovernmental Relations Department
+BOE = Board of Elections
+NDA = Non-Departmental Account
+ECM = Ethics Commission
+MPB = Merit System Protection Board Department
